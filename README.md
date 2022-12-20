@@ -1,7 +1,12 @@
 # Detectron2 for Panoptic segmentation, image pre-processing and Object detection
-This project's goal is to use Detectron2 for segmentation and cropping of the skyline before detecting objects in an image Dataset.
+This project's goal is to use Detectron2 for segmentation and cropping of the skyline before detecting objects in an image Dataset. Image cropping to only relevant areas may be beneficial for certain tasks that require real-time object detection in special environments. 
 
-Example images from the COCO dataset images:
+# Panoptic Segmentation
+"...panoptic segmentation combines semantic and instance segmentation such that all pixels are assigned a class label and all object instances are uniquely segmented."
+
+Panoptic segmentation classifies all pixels in the image within a polygonal bounding area including objects and background scenery. Unlike, object and Instance segmentation which only care about individual objects in the image.
+
+# Example images from the COCO dataset:
 
 ![image](https://user-images.githubusercontent.com/65919086/208775988-b03cf3e1-d76f-4399-bcd4-59d065cb63e6.png)                       ![image](https://user-images.githubusercontent.com/65919086/208775939-8bab37a7-bc7c-44b8-96e7-bd356b428372.png)
 
